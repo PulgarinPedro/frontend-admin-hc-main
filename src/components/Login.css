@@ -1,0 +1,96 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif; /* Ajusta la fuente según tus preferencias */
+  background-image: url('../images/fondo-login.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Ajusta la altura a la altura completa de la ventana */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container {
+  max-width: 600px; /* Ajusta el ancho máximo según tus preferencias */
+  margin-top: 100px ;
+  padding: 100px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.001); /* Fondo semi-transparente */
+}
+
+.login-content h2 {
+  text-align: center;
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+  margin-bottom: 20px;
+}
+
+.login-content {
+  width: 100%; /* O ajusta el ancho según tus preferencias */
+font-size: 16px;
+font-weight: bold;
+}
+.login-content h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+}
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #fff; /* Añade una línea inferior */
+    background-color: transparent; /* Fondo transparente */
+    color: #fff; /* Color del texto blanco */
+    outline: none; /* Elimina el contorno predeterminado al hacer clic */
+  }
+  
+  input:focus {
+    border-bottom: 3px solid #ffffff; /* Cambia el color de la línea al enfocar el campo */
+  }
+  .login-button {
+    background-color: rgba(255, 255, 255, 0.001); /* Fondo semi-transparente */
+    color: #fff;
+  padding: 15px 20px; /* Ajusta el padding según tus preferencias */
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid #fff;
+
+  transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.login-button:hover {
+  backdrop-filter: blur(3px); /* Efecto de desenfoque */
+}
+.logo {
+position: absolute;
+  top: 55px; /* Ajusta la distancia desde la parte superior según tus preferencias */
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 200px; /* Ajusta el ancho máximo del logo según tus preferencias */
+}
+
+
+

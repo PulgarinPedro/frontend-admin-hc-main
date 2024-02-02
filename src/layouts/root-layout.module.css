@@ -1,0 +1,35 @@
+
+
+.container{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.logo{
+    height: 187px;
+    margin: 7px;
+    background-image: url("../images/logo-hosteria-cap.png");
+    background-position: center;
+    background-size: cover;
+}
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+.title{
+    font-family: Montserrat, serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.title{
+    font-family: 'Bebas Neue',  sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}

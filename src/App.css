@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* En tu archivo App.css */
+.authenticated {
+  background-color: #001529; /* Cambia el color según tus preferencias */
+  padding: 20px; /* Ajusta el espacio alrededor del contenido */
+  position: relative; /* Añade esta línea para permitir el posicionamiento absoluto del botón */
+}
+
+.logout-button {
+  background-color: #ff0000; /* Color de fondo del botón */
+  color: #ffffff; /* Color del texto del botón */
+  padding: 10px 15px; /* Ajusta el padding según tus preferencias */
+  font-size: 16px; /* Tamaño de fuente del botón */
+  border: none;
+  border-radius: 3px;
+  margin-left: 1350px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.logout-button:hover {
+  background-color: #cc0000; /* Cambia el color de fondo al pasar el mouse */
+} 
+.authenticated h2 {
+  color: #ffffff; /* Color del texto del h2 dentro del contenedor autenticado */
+} 
